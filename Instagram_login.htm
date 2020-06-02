@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+  	background-color: #D3D3D3;
+  }
+  #existing_user,#new_user {
+  	width: 350px;
+  	margin: 10px auto 10px auto;
+    text-align: center;
+  	background-color: #FFFFFF;
+    padding: 4px;
+  }
+  .instagram {
+  	background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_576406ccc24b.png/576406ccc24b.png);
+    background-repeat: no-repeat;
+    background-position: -98px 0;
+    height: 51px;
+    width: 175px;
+    margin: 5% 25% 5% 25%;
+  }
+  #username, #password {
+  	width: 230px;
+  	padding: 1px;
+  	margin: 0 auto;
+  }
+  .login {
+    width: 230px;
+    margin: 10px 0 10px 0;
+    padding: 4px;
+  }
+  .log_in {
+  	color: #FFFFFF;
+    background-color: blue;
+  }
+  .log_in:hover {
+  	color: #FFFFFF;
+    background-color: #00CCDD;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div id="whole_page">
+    <div id="existing_user">
+      <div class="instagram"></div>
+   	    <div id="username">
+          <input type="text" id="username" name="username" placeholder="Phone number, username, or email">
+        </div>
+        <div id="password">
+          <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <div id="log_in1">
+          <button class="login log_in">Log In</button>
+        </div>
+    </div>
+    <div id="new_user">
+      <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/" style="font-weight: bold; color: blue; text-decoration: none">Sign up</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
